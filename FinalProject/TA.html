@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+	<title>Computer Science Department</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/TA.css" >
+    <script>
+        function showLabel() {
+          var label = document.getElementById('button');
+          label.style.display = 'block';
+        }
+      </script>
+   
+</head>
+    
+
+<body id="body" class="bodysec">
+
+    <header id="header">
+        <img src="images/aum_logo.png" alt="AUM" id="aum_img">
+        <section id="section">
+            <h1 id="h1">Computer Science Department</h1>
+        </section>
+        <section>
+            <nav id="nav_bar">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./description.html">Program Description</a></li>
+                    <li><a href="./TA.html" style="color: orangered;">TA Application</a></li>
+                    <li><a href="./GPA.html">GPA Calculator</a></li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>
+    <br>
+    <main>
+        <form name="myform" action="survey_data.html" method="get">
+            <h1>Teaching Assistant Application Form</h1>
+            <h2>Applicant information</h2>
+            
+            <label for="firstname">First name:</label>
+            <input type="text" name="firstname" id="firstname" autofocus required><br>
+        
+            <label for="lastname">Last name:</label>
+            <input type="text" name="lastname" id="lastname" required><br>
+        
+            <label for="studentid">Student ID:</label>
+            <input type="text" name="studentid" id="studentid" ><br>
+
+
+            <label for="gender">Gender:</label>
+            <p><input type="checkbox" name="gender" id="male" value="male">M&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;
+            <input type="checkbox" name="gender" id="female" value="female">F</p>
+       
+            
+            <label for="gpa">GPA:</label>
+            <input type="text" name="gpa" id="gpa" required><br>
+        
+            <label for="comments">Comments: </label>
+          
+            <textarea id="comments" name="comments" rows="2" cols="20" required></textarea>
+           
+        
+            <h2 id="sucess">Thank you for completing the application!</h2>
+          
+
+            <input div class="buttons" type="submit" name="button" id="button" value="Submit">
+            <input div class="buttons" type="reset" name="reset" id="reset">
+          
+        </form> 
+      <br>
+    </main>
+    <br>
+</body>
+
+<footer>
+    <div id="footer">7400 East
+        Drive&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&#160;&nbsp;&#160;&#160;&nbsp;&#160;&#160;&nbsp;&#160;&copy;
+        2023 Meeharika<img class="img_footer" src="images/facebook-social-network-logo.png"><img class="img_footer"
+            src="images/pinterest-logo.png"> <img class="img_footer" src="images/twt.jpeg">
+    </div>
+    <p id="footer_text">
+        Montgomery, AL 36117 <br><br>
+        Local: 334-244-3000 <br><br>
+        Toll-Free: 800-227-2649 <br>
+    </p>
+</footer>
+</html>

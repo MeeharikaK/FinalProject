@@ -1,0 +1,284 @@
+*{
+    margin:0; padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    background-image: url(../images/background.png);
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin:0; 
+	padding: 0%;
+	padding-top: 0%;
+}
+
+body{
+	float: top;
+	width: 800px;
+	margin: 0em auto;
+	border: 1px solid black;
+	background:rgb(230, 229, 229);
+	padding-top: 0%;
+	height: 500px;
+	padding-bottom: 0%;
+	padding: 0%;
+}
+
+main{
+	margin: 0 auto;  
+    padding: 0px;	
+    display: flex;
+	height: 356px;
+}
+
+#aum_img{
+	width: 15%;
+	margin: 0em;
+	border: 1px solid black;
+	box-shadow: 0.5px 0.5px black;
+	background: white;
+	float: left;
+	margin-top: 0%;
+	height: 108px;
+}
+
+#header{
+	border-bottom: 0px solid black;
+	padding: 0.1em 0.0em;
+	background-image: -webkit-linear-gradient(20deg, white 0%, #f8300c 80%);
+	background-image: -moz-linear-gradient(20deg, white 0%, #ff2600 80%);
+	background-image: -o-linear-gradient(20deg, white 0%, #ff2600 80%);
+	background-image: linear-gradient(20deg, white 0%, #ff2600 80%);
+	align-items: left;
+	height: 108px;
+}
+
+#h1{
+	 color: black;   
+	 text-align: top;
+	 font-size: 175%;
+	 padding-left: 25%;
+     padding: 0%;
+	 padding-left: 23%;
+}
+
+#nav_menu ul {
+	list-style-type: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#nav_menu ul li {
+	width: 80%;
+	padding: 0;
+	float: left;
+}
+
+#nav_menu ul li a{
+	display: block;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 0.10em 0;
+	font-size: 90%;
+	text-align: center;
+	font-weight: 200;
+}
+
+img{
+	width:5%;
+	height: 3%;
+	float: right;
+}
+
+.img_footer
+{
+	width:3%;
+	height: 3%;
+	padding: 0.0em 0.0em;
+	margin: 0%;
+	text-align: right;
+	float: right;
+	margin-left: 10px;
+}
+
+#right{
+	height: 40%;
+	width:50%;
+	float: right;
+   
+}
+
+.border{
+	border-top: .1px solid grey;
+	border: width 0px;
+}
+
+#borderbottom{
+	border-top: .1px solid grey;
+	width:50%;
+}
+
+.hr{
+	width: 95%;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	background-color: grey;
+}
+
+.hr1{
+	width: 92%;
+	height: 45%;
+}
+
+.left-half, .right-half {
+    flex: 1;
+}
+#line {
+	top: 0;
+	width: 100%;
+	border-top: 1px solid grey; 
+	width: 95%;
+	margin-bottom: .1%;
+	margin-top: .1%;
+}
+
+.divider {
+    width: .5px;
+    background-color: orangered;
+	padding: 0%;
+	margin: 0%;
+	margin-right: 0%;
+    margin-bottom: 1.5%;
+    margin-left: -1%;
+	margin-right: 1.1%;
+}
+
+#line:nth-child(2) {
+	top: 10%; 
+}
+
+.divider:nth-child(2) {
+	right: 1%; 
+}
+
+#h5{
+	font-size:12px;
+	text-align:left;
+	padding-left: 8px;
+	padding-bottom: 0%;
+}
+
+.vertical-line {
+	border-right: 2px solid #cb0b0b; 
+	height: 100px;
+}
+
+.vertical-line::after {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 10px;
+	height: 10px;
+	background-color: grey;
+	border-radius: 50%; 
+	left: -1px; 
+}
+
+#left{
+	height: 40%;
+	width:50%;
+	float: left;
+}
+
+h3{
+	font-size:small;
+	padding-left: 8px;
+	
+}
+
+footer{
+	text-align:center;
+	padding-bottom: 10%;
+	line-height: 10px;
+	clear:both;
+	background:orangered;
+	padding-top: 1%;	
+	font-size: 90%;
+	padding-left: 3%;
+}
+
+#footer{
+	text-align: left;
+	margin: 0%;
+    float: left;
+	margin-top: 0%;
+	padding-top: 0%;
+}
+
+#footer_text{
+	text-align: left;
+	margin: 0%;
+    float: left;
+}
+
+.add-space {
+	word-spacing: 10px; 
+}
+
+#nav_bar ul {
+	list-style-type: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#nav_bar ul li{
+	float: left;
+	padding: 0;
+}
+
+#nav_bar ul li a{
+	display: block;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	padding: 0.8em 0;
+	font-size: 90%;
+	width: 169.5px;
+	text-align: center;
+	font-weight: 200;
+}
+
+#nav_bar ul li a.current{
+	color: #FFA500;
+}
+
+#nav_bar ul li a:hover, #nav_bar ul li a:focus {
+	background-color: gray;
+}
+
+#nav_bar ul ul{
+	display: none;
+	position: absolute;
+	top: 100%;
+}
+
+#nav_bar ul ul li{
+	float: none;
+	position: relative;
+	font-size: 90%;
+}
+
+#nav_bar ul li:hover > ul{
+	display:block;
+}
+
+#nav_bar > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+	<title>Computer Science Department</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/GPA.css" >
+    <script src="GPA.js"></script>
+</head>
+
+<body id="body" class="bodysec">
+
+    <header id="header">
+        <img src="images/aum_logo.png" alt="AUM" id="aum_img">
+        <section id="section">
+            <h1 id="h1">Computer Science Department</h1>
+        </section>
+        <section>
+            <nav id="nav_bar">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./description.html">Program Description</a></li>
+                    <li><a href="./TA.html">TA Application</a></li>
+                    <li><a href="./GPA.html" style="color: orangered;">GPA Calculator</a></li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>
+    <br>
+    <main>
+    
+        <h1 id="gpa">Find your GPA!</h1>
+        <p id="p">&nbsp;&#160; Enter the number of credit hours for each course, and the letter grade for each of them. At least 2 courses should be entered.</p>
+        
+       <p id="p1">&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;<strong>Credit Hours</strong>&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp; &nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;<strong>Grade</strong> </p> 
+           <br> <label for="course1">Course 1:</label>
+            <input type="text" name="course1" id="course1" min="1" max="4" autofocus required>&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;
+            <input type="text" name="course1" id="course1grade" class="course" pattern="[A-Da-dFf]" maxlength="1" required>
+            <br>
+        
+            <label for="course2">Course 2:</label>
+            <input type="text" name="course2" id="course2" required>&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;
+            <input type="text" name="course2" id="course2grade" class="course"required>
+            <br>
+        
+            <label for="course3">Course 3:</label>
+            <input type="text" name="course3" id="course3" >&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;
+            <input type="text" name="course3" id="course3grade"class="course" >
+            <br>
+
+            
+            <label for="course4">Course 4:</label>
+            <input type="text" name="course4" id="course4" >&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;
+            <input type="text" name="course4" id="course4grade" class="course">
+            <br>
+
+            
+            <label for="course5">Course 5:</label>
+            <input type="text" name="course5" id="course5" >&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;
+            <input type="text" name="course5" id="course5grade" class="course" >
+            <br>
+    
+            <label for="avggpa">Avg GPA: </label>
+            <input type="text" name="avggpa" id="avggpa" readonly style="background-color: rgb(205, 198, 198);">
+            <br>
+            <input type="submit" name="button" id="button" value="Submit">&nbsp;&#160;&nbsp;&#160;
+            <input type="reset" name="reset" id="reset"> 
+            
+    </main>
+    <br>
+</body>
+
+<footer>
+    <div id="footer">7400 East
+        Drive&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;&#160;&nbsp;&#160;&#160;&nbsp;&#160;&#160;&nbsp;&#160;&copy;
+        2023 Meeharika<img class="img_footer" src="images/facebook-social-network-logo.png"><img class="img_footer"
+            src="images/pinterest-logo.png"> <img class="img_footer" src="images/twt.jpeg">
+    </div>
+    <p id="footer_text">
+        Montgomery, AL 36117 <br><br>
+        Local: 334-244-3000 <br><br>
+        Toll-Free: 800-227-2649 <br>
+    </p>
+</footer>
+</html>
